@@ -10,8 +10,11 @@ import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import com.imagepicker.ImagePickerPackage;
+<<<<<<< HEAD
 // react-native-splash-screen >= 0.3.1
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
+=======
+>>>>>>> 07401726b62b74ead77bd4eb6f04c3e3146034c4
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -28,7 +31,10 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           new ImagePickerPackage();
+<<<<<<< HEAD
           new SplashScreenReactPackage();
+=======
+>>>>>>> 07401726b62b74ead77bd4eb6f04c3e3146034c4
           return packages;
         }
 
